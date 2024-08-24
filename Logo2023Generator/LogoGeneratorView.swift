@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct DataShape: Shape {
-    static let terminator = Data([UInt8(0x00)])
+    static let terminator = Data([0x00])
 
     var data: Data
     var numberOfSegments: Int {
